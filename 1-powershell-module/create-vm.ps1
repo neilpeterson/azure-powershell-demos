@@ -1,7 +1,16 @@
-$resourceGroup = "posh-demo2"
-$vmName = "posh-demo2"
-$vmImage = "UbuntuLTS"
+<#
+ .DESCRIPTION
+    Creates a simple Ubuntu virtual machine.
+
+ .NOTES
+    Creates a simple Ubunut virtual machine using the Azure PowerShell Core module.
+ #>
+
+$params = @{
+    ResourceGroupName = "posh-core-demo";
+    Name = "posh-core-demo";
+    Image = "UbuntuLTS"
+}
 
 $creds = Get-Credential
-
-New-AzVM -ResourceGroupName $resourceGroup -Name $vmName -Image $vmImage -Credential $creds
+New-AzVM @params -Credential $creds
