@@ -3,7 +3,8 @@
     Returns a list of Resource Groups
 
  .NOTES
-    Sample script to return a list of Azure Resoure Groups using an Azure REST endpoint.
+    Author: Neil Peterson
+    Intent: Sample to demonstrate accessing Azure .via REST endpoint
  #>
 
 # Key Vault Name

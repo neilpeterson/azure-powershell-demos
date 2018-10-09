@@ -3,7 +3,8 @@
     Enables the IIS feature.
 
  .NOTES
-    Sample DSC configuration to enable the IIS feature.
+    Author: Neil Peterson
+    Intent: Sample to demonstrate Azure VM DSC Extension.
  #>
 
 configuration windows-features {

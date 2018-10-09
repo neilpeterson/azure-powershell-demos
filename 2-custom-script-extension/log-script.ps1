@@ -3,7 +3,8 @@
     Creates simple log file on Azure VM.
 
  .NOTES
-    Sample script used to demonstrate Azure custom script extension.
+    Author: Neil Peterson
+    Intent: Sample to demonstrate Azure VM Custom Script Extension.
  #>
 
 $folder = "c:\temp"

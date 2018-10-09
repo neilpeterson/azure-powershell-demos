@@ -3,7 +3,8 @@
     Publishes DSC configuration.
 
  .NOTES
-    Sample script to publish DSC configuration to Azure Storage blob.
+    Author: Neil Peterson
+    Intent: Sample to demonstrate Azure VM DSC Extension.
  #>
 
 $params = @{

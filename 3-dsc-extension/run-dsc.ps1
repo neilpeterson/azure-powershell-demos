@@ -3,7 +3,8 @@
     Enables IIS on VM with DSC extension.
 
  .NOTES
-    Sample script to run Azure DSC extension on Azure VM.
+    Author: Neil Peterson
+    Intent: Sample to demonstrate Azure VM DSC Extension.
  #>
 
 $params = @{

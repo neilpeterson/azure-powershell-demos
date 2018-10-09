@@ -3,7 +3,8 @@
     Creates a simple Ubuntu virtual machine.
 
  .NOTES
-    Creates a simple Ubunut virtual machine using the Azure PowerShell Core module.
+    Author: Neil Peterson
+    Intent: Sample to demonstrate Azure PowerShell Core module.
  #>
 
 $params = @{
