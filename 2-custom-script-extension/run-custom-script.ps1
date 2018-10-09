@@ -12,7 +12,7 @@ $params = @{
     location = "eastus";
     name = "win-server";
     vmName = "win-server";
-    FileUri = "https://raw.githubusercontent.com/neilpeterson/azure-powershell-demos/master/2-custom-script-extension/customscriptdemo.ps1";
+    FileUri = "https://raw.githubusercontent.com/neilpeterson/azure-powershell-demos/master/2-custom-script-extension/log-script.ps1";
     Run = "log-script.ps1"
 }
 
